@@ -5,14 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniversário da Lu</title>
     <link rel="stylesheet" href="styles/main.scss">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="aniversário">
-            <p class="hero__text">O dia especial está quase chegando! Faltam 10d 12h 20m 15s</p>
+            <img class="hero__logo" src="./images/logo.jfif" alt="solzinho sorrindo">
+            <p class="hero__text">O dia especial está quase chegando! Faltam <span id="timer"></span></p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item"><b>Localização</b>Minha casa - Rio Grande do Sul</li>
+                </ul>
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item"><b>Preço</b>Um doce ou presente</li>
+                </ul>
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item"><b>Quando</b>22/05/2026 ás 15hrs</li>
+                </ul>
+                <a href="#" class="button button--primary">Quero ir :D</a>
+            </div>
         </div>
     </header>
+    <section class="event event--one" data-aos="fade-right">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">O MEU DIA!!!</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate tempore unde soluta amet sunt! Perferendis architecto ratione nulla accusamus eaque, aspernatur ut unde totam dolor eum incidunt dolores facere?
+                </p>
+            </div>
+            <img class="event__image" src="./images/event.jfif" alt="Michael Jackson Segurando um cartaz de aniversário">
+        </div>
+    </section>
+    <section class="event event--two event--image-left" data-aos="fade-left">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">VAI TER BOLO :0</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate tempore unde soluta amet sunt! Perferendis architecto ratione nulla accusamus eaque, aspernatur ut unde totam dolor eum incidunt dolores facere?
+                </p>
+            </div>
+            <img class="event__image" src="./images/cake.jfif" alt="bonequinho segurando um bolo">
+        </div>
+    </section>
+    <section class="event event--three" data-aos="fade-right">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">TRAGAM PRESENTE OU UM DOCE!</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate tempore unde soluta amet sunt! Perferendis architecto ratione nulla accusamus eaque, aspernatur ut unde totam dolor eum incidunt dolores facere?
+                </p>
+            </div>
+            <img class="event__image" src="./images/present.jfif" alt="Eminem atirando um gato">
+        </div>
+    </section>
+    <section class="event event--four event--image-left" data-aos="fade-left">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">VENHA FESTEJAR COMIGO :D</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate tempore unde soluta amet sunt! Perferendis architecto ratione nulla accusamus eaque, aspernatur ut unde totam dolor eum incidunt dolores facere?
+                </p>
+            </div>
+            <img class="event__image" src="./images/myday.jfif" alt="shrek fazendo uma pose">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

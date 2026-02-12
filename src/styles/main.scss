@@ -1,4 +1,8 @@
 @use 'hero';
+@use 'components/infos_bar';
+@use 'components/buttons';
+@use 'event';
+@use 'variables';
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Sigmar&display=swap');
 
 * {
@@ -6,7 +10,8 @@
     padding: 0;
     box-sizing:border-box;
     font-family: "Quintessential", serif;
-    color: #fff;
+    color: variables.$textColor;
+    list-style: none;
 }
 
 body {
